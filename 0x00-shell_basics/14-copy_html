@@ -1,2 +1,2 @@
 #!/bin/bash
- (cd .  tar -cf - `find . -name '*.html' `) | (cd ..  tar -xf -)
+ (cd .  tar -cf - find . -name *.html ) | (cd ..  tar -xf -)
